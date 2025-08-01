@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mojorejo22.github.io/mojorejo/sitemap.xml
