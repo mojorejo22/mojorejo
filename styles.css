@@ -335,6 +335,23 @@ footer {
   gap: 10px;
   margin-top: 15px;
 }
+.contact-item .icon {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  display: block;
+}
+
+.contact-item svg {
+  vertical-align: middle;
+}
+
+.contact-item span,
+.contact-item a {
+  line-height: 1.2;
+  display: inline-block;
+}
+
 
 .contact-item {
   display: flex;
