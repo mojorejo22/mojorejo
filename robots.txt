@@ -1,3 +1,10 @@
 User-agent: *
 Allow: /
+
+# Blokir file sensitif (jika ada)
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /CNAME
+
+# Sitemap
 Sitemap: https://mojorejo22.github.io/mojorejo/sitemap.xml
