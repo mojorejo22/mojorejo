@@ -1,63 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-01</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel1.html</loc>
-    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel2.html</loc>
-    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel3.html</loc>
-    <lastmod>2025-07-30T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel4.html</loc>
-    <lastmod>2025-07-31T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel5.html</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel6.html</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/artikel7.html</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+    <lastmod>2025-08-01</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/tentang.html</loc>
-    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
+
   <url>
     <loc>https://mojorejo22.github.io/mojorejo/template.html</loc>
-    <lastmod>2025-07-29T00:00:00+00:00</lastmod>
+    <lastmod>2025-07-29</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
+
 </urlset>
