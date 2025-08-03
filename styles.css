@@ -321,11 +321,13 @@ footer {
 .contact-item a {
   color: #00aced;
   text-decoration: none;
+  transition: color 0.3s ease; /* 🔥 Tambah efek smooth hover */
 }
 
 .footer-info a:hover,
 .contact-item a:hover {
   text-decoration: underline;
+  color: #1da1f2; /* 🔥 Hover lebih jelas */
 }
 
 .footer-contact {
@@ -335,11 +337,14 @@ footer {
   gap: 10px;
   margin-top: 15px;
 }
+
+/* --- Perbaikan ikon --- */
 .contact-item .icon {
   width: 20px;
   height: 20px;
   flex-shrink: 0;
-  display: block;
+  display: inline-block; /* 🔥 Ubah jadi inline-block agar sejajar teks */
+  vertical-align: middle; /* 🔥 Biar center */
 }
 
 .contact-item svg {
@@ -348,16 +353,17 @@ footer {
 
 .contact-item span,
 .contact-item a {
-  line-height: 1.2;
+  line-height: 1.4; /* 🔥 Sedikit dinaikkan biar teks lebih lega */
   display: inline-block;
 }
 
-
+/* --- Setiap item kontak --- */
 .contact-item {
   display: flex;
-  align-items: center;
+  align-items: center; /* 🔥 Ratakan ikon & teks */
   gap: 10px;
   font-size: 0.95rem;
+  text-align: left;
 }
 
 .icon {
@@ -369,6 +375,15 @@ footer {
   margin-top: 25px;
   font-size: 0.85rem;
   color: #aaa;
+}
+
+/* 🔥 Responsif: Desktop = baris, HP = kolom */
+@media (min-width: 768px) {
+  .footer-contact {
+    flex-direction: row;
+    justify-content: center;
+    gap: 25px;
+  }
 }
 
 /* ===================== */
@@ -459,3 +474,4 @@ main.section strong {
 .btn-selengkapnya:hover {
   background-color: #444;
 }
+
