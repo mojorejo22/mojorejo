@@ -364,6 +364,24 @@
     </footer>
   </section>
 
+<script>
+  const hero = document.querySelector('.hero');
+  const images = [
+    'assets/p13.jpeg',
+    'assets/p14.jpeg',
+    'assets/p15.jpeg'
+  ];
+
+  let index = 0;
+
+  function changeBackground() {
+    hero.style.backgroundImage = `url('${images[index]}')`;
+    index = (index + 1) % images.length;
+  }
+
+  changeBackground(); // tampilkan gambar pertama
+  setInterval(changeBackground, 5000); // ganti setiap 5 detik
+</script>
 
   <script>
     function toggleMenu() {
@@ -375,6 +393,7 @@
 </body>
 
 </html>
+
 
 
 
