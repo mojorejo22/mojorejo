@@ -96,10 +96,12 @@
   </header>
 
 <section class="hero">
+  <div class="hero-bg" id="bg1"></div>
+  <div class="hero-bg" id="bg2"></div>
   <div class="hero-overlay">
     <h1>Selamat Datang di PSHT Mojorejo</h1>
     <p>Menjaga Warisan, Membentuk Kepribadian</p>
-      <a href="#tentang" class="btn">Lebih Lanjut</a>
+    <a href="#tentang" class="btn">Lebih Lanjut</a>
     </div>
   </section>
 
@@ -365,23 +367,39 @@
   </section>
 
 <script>
-  const hero = document.querySelector('.hero');
-  const images = [
-    'assets/p13.jpeg',
-    'assets/p21.jpg',
-    'assets/p10.jpeg'
-  ];
+const images = [
+  'assets/p13.jpeg',
+  'assets/p14.jpeg',
+  'assets/p15.jpeg'
+];
 
-  let index = 0;
+let index = 0;
+let showingBg1 = true;
 
-  function changeBackground() {
-    hero.style.backgroundImage = `url('${images[index]}')`;
-    index = (index + 1) % images.length;
+const bg1 = document.getElementById('bg1');
+const bg2 = document.getElementById('bg2');
+
+bg1.style.backgroundImage = `url('${images[index]}')`;
+
+function changeSlide() {
+  index = (index + 1) % images.length;
+
+  if (showingBg1) {
+    bg2.style.backgroundImage = `url('${images[index]}')`;
+    bg2.style.transform = 'translateX(0)';
+    bg1.style.transform = 'translateX(-100%)';
+  } else {
+    bg1.style.backgroundImage = `url('${images[index]}')`;
+    bg1.style.transform = 'translateX(0)';
+    bg2.style.transform = 'translateX(-100%)';
   }
 
-  changeBackground(); // tampilkan gambar pertama
-  setInterval(changeBackground, 5000); // ganti setiap 5 detik
+  showingBg1 = !showingBg1;
+}
+
+setInterval(changeSlide, 5000);
 </script>
+
 
   <script>
     function toggleMenu() {
@@ -393,6 +411,7 @@
 </body>
 
 </html>
+
 
 
 
