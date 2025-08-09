@@ -121,13 +121,16 @@ nav.show {
 
 /* HERO */
 .hero {
-  background: url('assets/p13.jpeg') center/cover no-repeat;
   height: 300px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-position: center;
+  transition: background-image 1s ease-in-out; /* biar ganti halus */
 }
+
 
 .hero-overlay {
   background: rgba(0, 0, 0, 0.6);
@@ -474,4 +477,5 @@ main.section strong {
 .btn-selengkapnya:hover {
   background-color: #444;
 }
+
 
